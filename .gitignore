@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# benchmark runs (remove this line if you want to commit results)
+server/benchmarks/results/*
+!server/benchmarks/results/.gitkeep
